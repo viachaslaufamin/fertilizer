@@ -1,0 +1,261 @@
+.menu>div{
+   width: 1060px;
+   height: 563px;
+   position: absolute;
+   top: 50px;
+   right: 170px;
+   background-color: #FFFFFF;
+   padding: 23px 21px 0 32px ;
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+   z-index: 1;
+}
+.menu>div>div:first-child{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.form input{
+   width: 298px;
+   height: 35px;
+   border: none;
+   font-size: 24px;
+   line-height: 28.8px;
+   outline: none;
+}
+.menu>div>div:first-child>div{
+   display: flex;
+   gap: 25px;
+}
+.menu nav {
+   display: flex;
+   gap: 110px;
+}
+.menu h2{
+   font-weight: 600;
+   line-height: 24px;
+   margin-bottom: 8px;
+}
+.menu ul{
+   display: flex;
+   flex-direction: column;
+   list-style-type: none;
+}
+.navig>div>ul> a li{
+   height: 42px;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 19.2px;
+   padding-left: 22px;
+}
+.broshura{
+   width: 400px;
+   height: 102px;
+   padding-left: 17px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 
+   -1.33px 1.33px 1.33px 0px #FFFFFF66 inset,
+   1.33px -1.33px 1.33px 0px #D6D6D666 inset;
+   border-radius: 15px;
+   background-color: #D6D6D666;
+}
+.broshura>div:first-child{
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+}
+.broshura>div:first-child>p{
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 24px;
+   color: white;
+}
+.broshura>div:first-child>div>a{
+   text-decoration: none;
+   color: white;
+}
+.broshura>div:first-child>div{
+   width: 170.38px;
+   height: 31.92px;
+   border-radius: 10px;
+   border: 0.5px solid #FFFFFF;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #015019;
+}
+.broshura>div:first-child>div>a>p{
+   font-weight: 600;
+   line-height: 24px;
+   color: white;
+}
+.vizibol{
+   background-color: #015019;
+   padding: 12px 17px 16px 17px;
+   display: none;
+   flex-direction: column;
+   gap: 13px;
+}
+.vizibol>div:first-child>a>img{
+   width: 30px;
+   height: 30px;
+}
+.vizibol>div:first-child{
+   display: flex;
+   gap: 15px;
+}
+@media (max-width: 1366px) {
+   .menu>div{
+      right: 120px;
+   }
+}
+@media (max-width: 1024px) {
+   .menu>div{
+      width: 900px;
+      top: 40px;
+      right: 70px;
+      padding: 23px 21px 0 32px ;
+      gap: 20px;
+   }
+   .menu nav {
+      display: flex;
+      gap: 60px;
+   }
+}
+@media (max-width: 768px) {
+   .menu>div{
+      width: 735px;
+      top: 30px;
+      right: 30px;
+      padding: 23px 21px 0 32px ;
+      gap: 20px;
+   }
+   .menu nav {
+      display: flex;
+      gap: 40px;
+   }
+   .navig>div>ul> a li{
+      height: 32px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.2px;
+      padding-left: 22px;
+   }
+}
+@media (max-width: 480px) {
+   .menu>div{
+      width: 480px;
+      height: 300px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #FFFFFF;
+      padding: 23px 21px 0 32px ;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      z-index: 1;
+   }
+   .form input{
+      width: 298px;
+      font-size: 16px;
+      line-height: 18.8px;
+   }
+   .menu>div:first-child>div:first-child>div>img:first-child{
+      display: none;
+   }
+   .menu>div>div:first-child>div{
+      display: flex;
+      gap: 25px;
+   }
+   .menu nav {
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      gap: 16px;
+   }
+   .menu h2{
+      font-weight: 600;
+      line-height: 24px;
+      margin-bottom: 8px;
+   }
+   .menu ul{
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+   }
+   .navig>div>ul> a li{
+      height: 42px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.2px;
+      padding-left: 22px;
+   }
+   .vizibol{
+      display: flex;
+   }
+}
+@media (max-width: 320px) {
+   .menu>div{
+      width: 320px;
+      height: 300px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #FFFFFF;
+      padding: 23px 21px 0 32px ;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      z-index: 1;
+   }
+   .form input{
+      width: 240px;
+   }
+   .broshura{
+      width: 255px;
+      height: 102px;
+      padding-left: 10px;
+   }
+   .broshura>div:first-child{
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+   }
+   .broshura>div:first-child>p{
+      font-size: 13px;
+      font-weight: 400;
+      color: white;
+   }
+   .broshura>div:first-child>div{
+      width: 120px;
+      background: #015019;
+   }
+   .broshura>div:first-child>div>a>p{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      color: white;
+   }
+   .broshura>div:last-child>img{
+      width: 110px;
+      height: 300px;
+   }
+   .vizibol{
+      background-color: #015019;
+      padding: 12px 0 16px 10px;
+      flex-direction: column;
+      gap: 13px;
+   }
+   .vizibol>div:first-child>a>img{
+      width: 30px;
+      height: 30px;
+   }
+   .vizibol>div:first-child{
+      display: flex;
+      gap: 15px;
+   }
+}

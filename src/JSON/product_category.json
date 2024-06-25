@@ -1,0 +1,46 @@
+{
+   "data": {
+      "values": [
+         {
+            "id":1,
+            "title":"Обработка семян",
+            "img":"/image_category/obrsem.svg"
+         },
+         {
+            "id":2,
+            "title":"Гербициды",
+            "img":"/image_category/perst.svg"
+         },
+         {
+            "id":3,
+            "title":"Фунгициды",
+            "img":"/image_category/fungocit.svg"
+         },
+         {
+            "id":4,
+            "title":"Инсектициды",
+            "img":"/image_category/intekcid.svg"
+         },
+         {
+            "id":5,
+            "title":"Фумиганты",
+            "img":"/image_category/fumagand.svg"
+         },
+         {
+            "id":6,
+            "title":"ПАВы и адъюванты",
+            "img":"/image_category/pav.svg"
+         },
+         {
+            "id":7,
+            "title":"Микроудобрения",
+            "img":"/image_category/mikroud.svg"
+         },
+         {
+            "id":8,
+            "title":"Регуляторы роста",
+            "img":"/image_category/regrost.svg"
+         }
+      ]
+   }
+}

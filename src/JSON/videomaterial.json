@@ -1,0 +1,24 @@
+{
+   "data": {
+      "values": [
+         {
+            "id":1,
+            "video": "/video/lilii.mp4",
+            "title": "Видео про Лилии",
+            "description": "sjvjfdjk fshgfsdgvjdjvf jsavhjfvjfdj jsavfvdfjvj asvjfsvnijnvd asuvi ufv uavuvfusui"
+         },
+         {
+            "id":2,
+            "video": "/video/pshenica.mp4",
+            "title": "Видео про Пшеницу",
+            "description": "sjvjfdjk fshgfsdgvjdjvf jsavhjfvjfdj jsavfvdfjvj asvjfsvnijnvd asuvi ufv uavuvfusui"
+         },
+         {
+            "id":3,
+            "video": "/video/rostok.mp4",
+            "title": "Видео про Росток",
+            "description": "sjvjfdjk fshgfsdgvjdjvf jsavhjfvjfdj jsavfvdfjvj asvjfsvnijnvd asuvi ufv uavuvfusui"
+         }
+      ]
+   }
+}
