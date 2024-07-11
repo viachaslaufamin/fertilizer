@@ -4,42 +4,58 @@
          {
             "id":1,
             "title":"Обработка семян",
-            "img":"/image_category/obrsem.svg"
+            "img":"/image_category/obrsem.svg",
+            "id_category": 1,
+            "name_category": "Продукты"
          },
          {
             "id":2,
             "title":"Гербициды",
-            "img":"/image_category/perst.svg"
+            "img":"/image_category/perst.svg",
+            "id_category": 1,
+            "name_category": "Продукты"
          },
          {
             "id":3,
             "title":"Фунгициды",
-            "img":"/image_category/fungocit.svg"
+            "img":"/image_category/fungocit.svg",
+            "id_category": 1,
+            "name_category": "Продукты"
          },
          {
             "id":4,
             "title":"Инсектициды",
-            "img":"/image_category/intekcid.svg"
+            "img":"/image_category/intekcid.svg",
+            "id_category": 1,
+            "name_category": "Продукты"
          },
          {
             "id":5,
             "title":"Фумиганты",
-            "img":"/image_category/fumagand.svg"
+            "img":"/image_category/fumagand.svg",
+            "id_category": 1,
+            "name_category": "Продукты"
          },
          {
             "id":6,
             "title":"ПАВы и адъюванты",
-            "img":"/image_category/pav.svg"
+            "img":"/image_category/pav.svg",
+            "id_category": 1,
+            "name_category": "Продукты"
          },
          {
             "id":7,
             "title":"Микроудобрения",
-            "img":"/image_category/mikroud.svg"
+            "img":"/image_category/mikroud.svg",
+            "id_category": 1,
+            "name_category": "Продукты"
          },
          {
             "id":8,
             "title":"Регуляторы роста",
-            "img":"/image_category/regrost.svg"
+            "img":"/image_category/regrost.svg",
+            "id_category": 1,
+            "name_category": "Продукты"
          }
       ]
    }

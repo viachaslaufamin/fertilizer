@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import s from './index.module.css'
 import product_category from '../../JSON/product_category.json'
 import CardCategoryMenu from '../CardCategoryMenu';
+import { Link } from 'react-router-dom';
 
 export default function MenuProduct() {
    const [newsData, setNewsData] = useState([]);
@@ -13,7 +14,9 @@ export default function MenuProduct() {
   return (
     <section className={s.conteiner}>
       <nav>
-         <h2>Продукты</h2>
+         <Link to={'/category'}>
+            <h2>Продукты</h2>
+         </Link>
          <div>
             {
                newsData.length > 0 ? (

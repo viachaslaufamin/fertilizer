@@ -23,7 +23,7 @@ export default function Menu({toggleMenu}) {
          </div>
          <nav className={s.navig}>
             <div>
-               <Link>
+               <Link to={'/category'}>
                   <h2>Продукты</h2>
                </Link>
                <ul>

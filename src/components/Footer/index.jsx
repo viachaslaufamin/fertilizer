@@ -17,7 +17,7 @@ export default function Footer() {
         <div>
           <nav className={s.onenavig}>
             <div>
-              <Link><img src={logo} alt="logo" /></Link>
+              <Link to={'./'}><img src={logo} alt="logo" /></Link>
             </div>
             <div>
               <Link>Политика конфиденциальности</Link>
@@ -30,7 +30,7 @@ export default function Footer() {
           </nav>
           <nav className={s.navig}>
             <div>
-                <Link>
+                <Link to={'/category/product'}>
                     <h2>Продукты</h2>
                 </Link>
                 <ul>
@@ -61,7 +61,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div>
-                <Link>
+                <Link to={'/category/cultura'}>
                     <h2>Культуры</h2>
                 </Link>
                 <ul>
@@ -120,7 +120,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div>
-                <Link>
+                <Link to={'/category/vred_ob'}>
                     <h2>Вредные объекты</h2>
                 </Link>
                 <ul>
@@ -148,7 +148,7 @@ export default function Footer() {
             </div>
             <div>
               <img src={mail} alt="mail" />
-              <a href="#">
+              <a href="mailto:ekofarming@mail.ru">
                 <p>ekofarming@mail.ru</p>
               </a>
             </div>

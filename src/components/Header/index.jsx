@@ -39,7 +39,7 @@ export default function Header() {
       <section className={s.header}>
          <div>
             <div>
-               <Link to={''}><img src={logo} alt="logo" /></Link>
+               <Link to={'/'}><img src={logo} alt="logo" /></Link>
             </div>
             <div>
                <img src={search} alt="search" />
